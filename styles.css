@@ -1,0 +1,62 @@
+body{
+    font-family: 'Bree Serif', serif;
+    background:rgb(183, 183, 248);
+    margin:0%;
+}
+img{
+    border-radius: 50%;
+    box-shadow: 10px 5px rgb(149, 149, 249);
+}
+#sunflower{
+    height:75%;
+    width: 15%;
+}
+#headshot{
+    width: 30%;
+    height:30%;
+    margin: 2%;
+}
+#cat1{
+    height:45%;
+    width:50%;
+    margin: 2%;
+}
+#tortoise{
+    height:45%;
+    width:50%;
+    margin: 2%;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(149, 149, 249);
+}
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(149, 149, 249);
+}
+a{
+    color: black;
+}
+a:hover{
+    color:lavender;
+}
+.page-links{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.box-and-picture{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background: linear-gradient(rgb(149, 149, 249),rgb(182, 182, 243));
+    width:50%;
+    padding:5%;
+    display:flex;
+    flex-direction: column;
+    border-radius: 20%;
+}
